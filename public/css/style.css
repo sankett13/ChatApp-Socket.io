@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(17, 0, 28);
+    justify-content: center;
+    
+  
+}
+.absolute{
+    position: absolute;
+    top: 40px;
+    inset: 0;
+    justify-content: space-evenly;
+    display: inline-flex;
+    flex-direction: row;
+}
+/*.justify-center{
+    justify-content: center;
+}*/
+
+.s1{
+    width: 400px;
+    height: 400px;
+    border-radius: 9999px;
+    position: relative;
+    animation: one 5s infinite;
+}
+
+.s2{
+    width: 300px;
+    height: 300px;
+    border-radius: 9999px;
+    position: relative;
+    animation: tw0 5s infinite;
+}
+.s3{
+    width: 500px;
+    height: 500px;
+    border-radius: 9999px;
+    position: relative;
+    animation: three 5s infinite;
+}
+.s4{
+    width: 400px;
+    height: 400px;
+    border-radius: 9999px;
+    position: relative;
+    animation: four 5s infinite;
+}
+.s5{
+    width: 300px;
+    height: 300px;
+    border-radius: 9999px;
+    position: relative;
+    animation: five 5s infinite;
+}
+
+
+@keyframes one{
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes three{
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes two{
+    0%{left: 0px; top: 0px;}
+    25%{left: 50px; top: 10px;}
+    50%{left: 100px; top: 50px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+@keyframes four{
+    0%{right: 0px; bottom: 0px;}
+    25%{right:  50px; bottom: 10px;}
+    50%{right: 100px; bottom: 50px;}
+    75%{right: 50px; bottom: 100px;}
+    100%{right: 0px; bottom: 0px;}
+}
+@keyframes five{
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+
+
+.opacity-50{
+    opacity: .6;
+}
+.bg-blur{
+    filter: blur(100px);
+}
+.bg-primary{
+    background-color: rgb(30,0,255);
+}
+.bg-teal{
+    background-color: rgb(255,72,173);
+}
+.bg-purple{
+    background-color: rgb(140,0,215);
+}
+.bg-green{
+    background-color: aquamarine;
+}
+.bg-blue{
+    background-color: cornflowerblue;
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 45px;
+    color:  white;
+}
+
+.chat-container{
+    position: absolute;
+    top: 160px;
+    left: 450px;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.539);
+    
+}
+#chatbox{
+    height: 250px;
+    width: 600px;
+    background-color: rgb(225, 211, 255);
+    border-radius: 10px;
+   
+}
+
+
+
+button{
+    color: white;
+    background-color: rgb(115, 0, 255);
+    border-radius: 5px;
+    padding:3px;
+    height: 35px;
+    width: 150px;
+    margin-left: 230px ;
+    margin-top: 20px;
+    cursor: pointer; 
+   
+}
+button:hover{
+    background-color: rgb(0, 209, 49);
+    color: black;
+    font-weight: bold;
+    scale: 1.03;
+}
+
+button:active{
+    scale: 0.9;
+    background-color: rgb(159, 159, 159);
+}
+
+input{
+    margin: 8px;
+    padding: 5px;
+    width: 250px;
+    box-shadow: 1px 1px 8px rgba(131,131,131,0.8);
+    margin-left: 170px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+
+input:active{
+    border: 2px solid green;
+}
+#username{
+    margin-top: 30px;
+   
+}
